@@ -20,10 +20,10 @@
 		A50311BA2C1AD39C008A4F55 /* HomeViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = A50311B92C1AD39C008A4F55 /* HomeViewController.swift */; };
 		A50311C42C1ADB91008A4F55 /* HomeVideoCell.swift in Sources */ = {isa = PBXBuildFile; fileRef = A50311C12C1ADB91008A4F55 /* HomeVideoCell.swift */; };
 		A50311C92C1AFE7D008A4F55 /* HomeSection.swift in Sources */ = {isa = PBXBuildFile; fileRef = A50311C82C1AFE7D008A4F55 /* HomeSection.swift */; };
-		A50BE29E2C1C19D4006543E3 /* HomeRecentWatchContainerCell.xib in Resources */ = {isa = PBXBuildFile; fileRef = A50BE29D2C1C19D4006543E3 /* HomeRecentWatchContainerCell.xib */; };
-		A50BE29F2C1C19D4006543E3 /* HomeRecentWatchContainerCell.swift in Sources */ = {isa = PBXBuildFile; fileRef = A50BE29C2C1C19D4006543E3 /* HomeRecentWatchContainerCell.swift */; };
-		A50BE2A22C1C1CB3006543E3 /* HomeRecentWatchItemCellCollectionViewCell.xib in Resources */ = {isa = PBXBuildFile; fileRef = A50BE2A12C1C1CB3006543E3 /* HomeRecentWatchItemCellCollectionViewCell.xib */; };
-		A50BE2A32C1C1CB3006543E3 /* HomeRecentWatchItemCellCollectionViewCell.swift in Sources */ = {isa = PBXBuildFile; fileRef = A50BE2A02C1C1CB3006543E3 /* HomeRecentWatchItemCellCollectionViewCell.swift */; };
+		A50BE29E2C1C19D4006543E3 /* HomeRankingContainerCell.xib in Resources */ = {isa = PBXBuildFile; fileRef = A50BE29D2C1C19D4006543E3 /* HomeRankingContainerCell.xib */; };
+		A50BE29F2C1C19D4006543E3 /* HomeRankingContainerCell.swift in Sources */ = {isa = PBXBuildFile; fileRef = A50BE29C2C1C19D4006543E3 /* HomeRankingContainerCell.swift */; };
+		A50BE2A22C1C1CB3006543E3 /* HomeRankingItemCell.xib in Resources */ = {isa = PBXBuildFile; fileRef = A50BE2A12C1C1CB3006543E3 /* HomeRankingItemCell.xib */; };
+		A50BE2A32C1C1CB3006543E3 /* HomeRankingItemCell.swift in Sources */ = {isa = PBXBuildFile; fileRef = A50BE2A02C1C1CB3006543E3 /* HomeRankingItemCell.swift */; };
 		A5527FB82C1B015F003D5F72 /* TabBarController.swift in Sources */ = {isa = PBXBuildFile; fileRef = A5527FB72C1B015F003D5F72 /* TabBarController.swift */; };
 		A5527FD12C1B084E003D5F72 /* HomeFooterCell.swift in Sources */ = {isa = PBXBuildFile; fileRef = A5527FC92C1B084E003D5F72 /* HomeFooterCell.swift */; };
 		A5527FD22C1B084E003D5F72 /* HomeRecommendContainerCell.swift in Sources */ = {isa = PBXBuildFile; fileRef = A5527FCA2C1B084E003D5F72 /* HomeRecommendContainerCell.swift */; };
@@ -72,10 +72,10 @@
 		A50311C12C1ADB91008A4F55 /* HomeVideoCell.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = HomeVideoCell.swift; sourceTree = "<group>"; };
 		A50311C22C1ADB91008A4F55 /* HomeVideoCell.xib */ = {isa = PBXFileReference; lastKnownFileType = file.xib; path = HomeVideoCell.xib; sourceTree = "<group>"; };
 		A50311C82C1AFE7D008A4F55 /* HomeSection.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = HomeSection.swift; sourceTree = "<group>"; };
-		A50BE29C2C1C19D4006543E3 /* HomeRecentWatchContainerCell.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = HomeRecentWatchContainerCell.swift; sourceTree = "<group>"; };
-		A50BE29D2C1C19D4006543E3 /* HomeRecentWatchContainerCell.xib */ = {isa = PBXFileReference; lastKnownFileType = file.xib; path = HomeRecentWatchContainerCell.xib; sourceTree = "<group>"; };
-		A50BE2A02C1C1CB3006543E3 /* HomeRecentWatchItemCellCollectionViewCell.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = HomeRecentWatchItemCellCollectionViewCell.swift; sourceTree = "<group>"; };
-		A50BE2A12C1C1CB3006543E3 /* HomeRecentWatchItemCellCollectionViewCell.xib */ = {isa = PBXFileReference; lastKnownFileType = file.xib; path = HomeRecentWatchItemCellCollectionViewCell.xib; sourceTree = "<group>"; };
+		A50BE29C2C1C19D4006543E3 /* HomeRankingContainerCell.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = HomeRankingContainerCell.swift; sourceTree = "<group>"; };
+		A50BE29D2C1C19D4006543E3 /* HomeRankingContainerCell.xib */ = {isa = PBXFileReference; lastKnownFileType = file.xib; path = HomeRankingContainerCell.xib; sourceTree = "<group>"; };
+		A50BE2A02C1C1CB3006543E3 /* HomeRankingItemCell.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = HomeRankingItemCell.swift; sourceTree = "<group>"; };
+		A50BE2A12C1C1CB3006543E3 /* HomeRankingItemCell.xib */ = {isa = PBXFileReference; lastKnownFileType = file.xib; path = HomeRankingItemCell.xib; sourceTree = "<group>"; };
 		A5527FB72C1B015F003D5F72 /* TabBarController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = TabBarController.swift; sourceTree = "<group>"; };
 		A5527FC92C1B084E003D5F72 /* HomeFooterCell.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = HomeFooterCell.swift; sourceTree = "<group>"; };
 		A5527FCA2C1B084E003D5F72 /* HomeRecommendContainerCell.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = HomeRecommendContainerCell.swift; sourceTree = "<group>"; };
@@ -179,12 +179,6 @@
 		A50311C62C1ADBAE008A4F55 /* Cell */ = {
 			isa = PBXGroup;
 			children = (
-				A50BE29C2C1C19D4006543E3 /* HomeRecentWatchContainerCell.swift */,
-				A50BE29D2C1C19D4006543E3 /* HomeRecentWatchContainerCell.xib */,
-				A50BE2A02C1C1CB3006543E3 /* HomeRecentWatchItemCellCollectionViewCell.swift */,
-				A50BE2A12C1C1CB3006543E3 /* HomeRecentWatchItemCellCollectionViewCell.xib */,
-				A5527FC92C1B084E003D5F72 /* HomeFooterCell.swift */,
-				A5527FCD2C1B084E003D5F72 /* HomeFooterCell.xib */,
 				A5527FCB2C1B084E003D5F72 /* HomeHeaderCell.swift */,
 				A5527FCE2C1B084E003D5F72 /* HomeHeaderCell.xib */,
 				A5527FCA2C1B084E003D5F72 /* HomeRecommendContainerCell.swift */,
@@ -193,6 +187,12 @@
 				A5527FD02C1B084E003D5F72 /* HomeRecommendItemCell.xib */,
 				A50311C12C1ADB91008A4F55 /* HomeVideoCell.swift */,
 				A50311C22C1ADB91008A4F55 /* HomeVideoCell.xib */,
+				A50BE29C2C1C19D4006543E3 /* HomeRankingContainerCell.swift */,
+				A50BE29D2C1C19D4006543E3 /* HomeRankingContainerCell.xib */,
+				A50BE2A02C1C1CB3006543E3 /* HomeRankingItemCell.swift */,
+				A50BE2A12C1C1CB3006543E3 /* HomeRankingItemCell.xib */,
+				A5527FC92C1B084E003D5F72 /* HomeFooterCell.swift */,
+				A5527FCD2C1B084E003D5F72 /* HomeFooterCell.xib */,
 			);
 			path = Cell;
 			sourceTree = "<group>";
@@ -311,13 +311,13 @@
 			files = (
 				A5527FD92C1B0A09003D5F72 /* HomeVideoCell.xib in Resources */,
 				A50311912C1AC0A9008A4F55 /* Assets.xcassets in Resources */,
-				A50BE29E2C1C19D4006543E3 /* HomeRecentWatchContainerCell.xib in Resources */,
+				A50BE29E2C1C19D4006543E3 /* HomeRankingContainerCell.xib in Resources */,
 				A50311B82C1ACCCA008A4F55 /* Colors.xcassets in Resources */,
 				A5527FD82C1B084F003D5F72 /* HomeRecommendItemCell.xib in Resources */,
 				A50311942C1AC0A9008A4F55 /* Base in Resources */,
 				A503118F2C1AC0A8008A4F55 /* Base in Resources */,
 				A5527FD62C1B084E003D5F72 /* HomeHeaderCell.xib in Resources */,
-				A50BE2A22C1C1CB3006543E3 /* HomeRecentWatchItemCellCollectionViewCell.xib in Resources */,
+				A50BE2A22C1C1CB3006543E3 /* HomeRankingItemCell.xib in Resources */,
 				A5527FD52C1B084E003D5F72 /* HomeFooterCell.xib in Resources */,
 				A5527FD42C1B084E003D5F72 /* HomeRecommendContainerCell.xib in Resources */,
 			);
@@ -345,7 +345,7 @@
 			buildActionMask = 2147483647;
 			files = (
 				A503118C2C1AC0A8008A4F55 /* LoginViewController.swift in Sources */,
-				A50BE29F2C1C19D4006543E3 /* HomeRecentWatchContainerCell.swift in Sources */,
+				A50BE29F2C1C19D4006543E3 /* HomeRankingContainerCell.swift in Sources */,
 				A5527FD22C1B084E003D5F72 /* HomeRecommendContainerCell.swift in Sources */,
 				A50311882C1AC0A8008A4F55 /* AppDelegate.swift in Sources */,
 				A5527FD32C1B084E003D5F72 /* HomeHeaderCell.swift in Sources */,
@@ -355,7 +355,7 @@
 				A5527FB82C1B015F003D5F72 /* TabBarController.swift in Sources */,
 				A50311C42C1ADB91008A4F55 /* HomeVideoCell.swift in Sources */,
 				A50311BA2C1AD39C008A4F55 /* HomeViewController.swift in Sources */,
-				A50BE2A32C1C1CB3006543E3 /* HomeRecentWatchItemCellCollectionViewCell.swift in Sources */,
+				A50BE2A32C1C1CB3006543E3 /* HomeRankingItemCell.swift in Sources */,
 				A5527FD12C1B084E003D5F72 /* HomeFooterCell.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
