@@ -12,10 +12,10 @@
         <placeholder placeholderIdentifier="IBFilesOwner" id="-1" userLabel="File's Owner"/>
         <placeholder placeholderIdentifier="IBFirstResponder" id="-2" customClass="UIResponder"/>
         <tableViewCell contentMode="scaleToFill" selectionStyle="default" indentationWidth="10" id="KGk-i7-Jjw" customClass="HomeRankingContainerCell" customModule="KTV" customModuleProvider="target">
-            <rect key="frame" x="0.0" y="0.0" width="393" height="336"/>
+            <rect key="frame" x="0.0" y="0.0" width="393" height="357"/>
             <autoresizingMask key="autoresizingMask" flexibleMaxX="YES" flexibleMaxY="YES"/>
             <tableViewCellContentView key="contentView" opaque="NO" clipsSubviews="YES" multipleTouchEnabled="YES" contentMode="center" tableViewCell="KGk-i7-Jjw" id="H2p-sc-9uM">
-                <rect key="frame" x="0.0" y="0.0" width="393" height="336"/>
+                <rect key="frame" x="0.0" y="0.0" width="393" height="357"/>
                 <autoresizingMask key="autoresizingMask"/>
                 <subviews>
                     <view contentMode="scaleToFill" translatesAutoresizingMaskIntoConstraints="NO" id="3tE-ti-3ti">
@@ -37,26 +37,26 @@
                         </constraints>
                     </view>
                     <collectionView clipsSubviews="YES" multipleTouchEnabled="YES" contentMode="scaleToFill" dataMode="none" translatesAutoresizingMaskIntoConstraints="NO" id="2MK-8B-QL6">
-                        <rect key="frame" x="0.0" y="63" width="393" height="233"/>
+                        <rect key="frame" x="0.0" y="63" width="393" height="265"/>
                         <color key="backgroundColor" white="0.0" alpha="0.0" colorSpace="custom" customColorSpace="genericGamma22GrayColorSpace"/>
-                        <collectionViewFlowLayout key="collectionViewLayout" scrollDirection="horizontal" minimumLineSpacing="20" minimumInteritemSpacing="20" id="nLF-Te-kG1">
+                        <collectionViewFlowLayout key="collectionViewLayout" scrollDirection="horizontal" minimumLineSpacing="20" minimumInteritemSpacing="21" id="nLF-Te-kG1">
                             <size key="itemSize" width="130" height="230"/>
                             <size key="estimatedItemSize" width="130" height="230"/>
                             <size key="headerReferenceSize" width="0.0" height="0.0"/>
                             <size key="footerReferenceSize" width="0.0" height="0.0"/>
-                            <inset key="sectionInset" minX="20" minY="0.0" maxX="0.0" maxY="0.0"/>
+                            <inset key="sectionInset" minX="20" minY="21" maxX="20" maxY="0.0"/>
                         </collectionViewFlowLayout>
                     </collectionView>
                 </subviews>
                 <color key="backgroundColor" name="bg"/>
                 <constraints>
                     <constraint firstAttribute="trailing" secondItem="3tE-ti-3ti" secondAttribute="trailing" id="Bjy-kH-Bud"/>
-                    <constraint firstAttribute="bottomMargin" secondItem="2MK-8B-QL6" secondAttribute="bottom" constant="29" id="KL8-vG-7rH"/>
                     <constraint firstItem="2MK-8B-QL6" firstAttribute="top" secondItem="3tE-ti-3ti" secondAttribute="bottom" id="Mtb-Bo-ZZL"/>
                     <constraint firstAttribute="trailing" secondItem="2MK-8B-QL6" secondAttribute="trailing" id="SDn-v5-eRC"/>
                     <constraint firstItem="3tE-ti-3ti" firstAttribute="top" secondItem="H2p-sc-9uM" secondAttribute="top" id="g5f-xJ-Ikf"/>
                     <constraint firstItem="3tE-ti-3ti" firstAttribute="leading" secondItem="H2p-sc-9uM" secondAttribute="leading" id="lTM-Lp-zWy"/>
                     <constraint firstItem="2MK-8B-QL6" firstAttribute="leading" secondItem="H2p-sc-9uM" secondAttribute="leading" id="oKG-Dy-Ak7"/>
+                    <constraint firstAttribute="bottom" secondItem="2MK-8B-QL6" secondAttribute="bottom" constant="29" id="zjK-Re-lx2"/>
                 </constraints>
             </tableViewCellContentView>
             <viewLayoutGuide key="safeArea" id="njF-e1-oar"/>

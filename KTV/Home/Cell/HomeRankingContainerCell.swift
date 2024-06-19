@@ -7,19 +7,19 @@
 
 import UIKit
 
-protocol HomeRecentWatchContainerCellDelegate: AnyObject {
+protocol HomeRankingContainerCellDelegate: AnyObject {
     func homeRankingContainerCell(_ cell: HomeRankingContainerCell, didSelectItemAt index: Int)
 }
 
 class HomeRankingContainerCell: UITableViewCell {
 
     static let identifier: String = "HomeRankingContainerCell"
-    static let height: CGFloat = 336
+    static let height: CGFloat = 357
 
     @IBOutlet weak var titleLabel: UILabel!
     @IBOutlet weak var collectionView: UICollectionView!
 
-    weak var delegate: HomeRecentWatchContainerCellDelegate?
+    weak var delegate: HomeRankingContainerCellDelegate?
 
     override func awakeFromNib() {
         super.awakeFromNib()

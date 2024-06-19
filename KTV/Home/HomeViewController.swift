@@ -28,8 +28,9 @@ class HomeViewController: UIViewController {
 
         self.tableView.register(UINib(nibName: HomeHeaderCell.identifier, bundle: nil), forCellReuseIdentifier: HomeHeaderCell.identifier)
         self.tableView.register(UINib(nibName: HomeVideoCell.identifier, bundle: nil), forCellReuseIdentifier: HomeVideoCell.identifier)
-        self.tableView.register(UINib(nibName: HomeRecommendContainerCell.identifier, bundle: nil), forCellReuseIdentifier: HomeRecommendContainerCell.identifier)
         self.tableView.register(UINib(nibName: HomeRankingContainerCell.identifier, bundle: nil), forCellReuseIdentifier: HomeRankingContainerCell.identifier)
+        self.tableView.register(UINib(nibName: HomeRecentWatchContainerCell.identifier, bundle: nil), forCellReuseIdentifier: HomeRecentWatchContainerCell.identifier)
+        self.tableView.register(UINib(nibName: HomeRecommendContainerCell.identifier, bundle: nil), forCellReuseIdentifier: HomeRecommendContainerCell.identifier)
         self.tableView.register(UINib(nibName: HomeFooterCell.identifier, bundle: nil), forCellReuseIdentifier: HomeFooterCell.identifier)
     }
 }
@@ -50,9 +51,11 @@ extension HomeViewController: UITableViewDelegate, UITableViewDataSource {
             return 1
         case .video:
             return 2
-        case .recommend:
-            return 1
         case .rank:
+            return 1
+        case .recent:
+            return 1
+        case .recommend:
             return 1
         case .footer:
             return 1
@@ -70,10 +73,12 @@ extension HomeViewController: UITableViewDelegate, UITableViewDataSource {
             return tableView.dequeueReusableCell(withIdentifier: HomeHeaderCell.identifier, for: indexPath)
         case .video:
             return tableView.dequeueReusableCell(withIdentifier: HomeVideoCell.identifier, for: indexPath)
-        case .recommend:
-            return tableView.dequeueReusableCell(withIdentifier: HomeRecommendContainerCell.identifier, for: indexPath)
         case .rank:
             return tableView.dequeueReusableCell(withIdentifier: HomeRankingContainerCell.identifier, for: indexPath)
+        case .recent:
+            return tableView.dequeueReusableCell(withIdentifier: HomeRecentWatchContainerCell.identifier, for: indexPath)
+        case .recommend:
+            return tableView.dequeueReusableCell(withIdentifier: HomeRecommendContainerCell.identifier, for: indexPath)
         case .footer:
             return tableView.dequeueReusableCell(withIdentifier: HomeFooterCell.identifier, for: indexPath)
         }
@@ -90,10 +95,12 @@ extension HomeViewController: UITableViewDelegate, UITableViewDataSource {
             return HomeHeaderCell.height
         case .video:
             return HomeVideoCell.height
-        case .recommend:
-            return HomeRecommendContainerCell.height
         case .rank:
             return HomeRankingContainerCell.height
+        case .recent:
+            return HomeRecentWatchContainerCell.height
+        case .recommend:
+            return HomeRecommendContainerCell.height
         case .footer:
             return HomeFooterCell.height
         }
